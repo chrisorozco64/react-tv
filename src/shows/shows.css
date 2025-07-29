@@ -21,6 +21,11 @@
   gap: 1rem;
 }
 
+.shows a {
+  color: inherit;
+  text-decoration: none;
+}
+
 @media (width >= 500px) {
   .show-details {
     grid-template-columns: minmax(30ch, auto) 1fr;
